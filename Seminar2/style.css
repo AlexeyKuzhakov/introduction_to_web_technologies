@@ -1,0 +1,52 @@
+html {
+    background-image: url("img/i.webp");
+    box-shadow: inset 0 0 0 200vw rgba(206, 206, 206, 0.897);
+}
+h1 {
+    color: rgba(26, 0, 48, 0.911);
+}
+h2 { 
+    color: chocolate;
+    font-family: 'Teddy Bear', sans-serif;
+}
+a {
+    color: rgb(5, 139, 0);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(136, 9, 153);
+    font-size: 20px;
+}
+.list {
+    display: flex;
+}
+.child + .child {
+    margin-left: 150px;
+}
+.padd {
+    padding: 0 30px;
+}
+ul {
+    list-style: square inside;
+}
+@font-face {
+	font-family: 'Teddy Bear';
+	src: url('fonts/teddy_bear.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/teddy_bear.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/teddy_bear.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/teddy_bear.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/teddy_bear.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/teddy_bear.svg#teddy_bear') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+img {
+    margin-left: 50px;
+    border: 2px solid black;
+}
+.first_img {
+    margin-top: 10px;
+    margin-left: 150px;
+    width: 400px;
+}
+.second_img {
+    width: 600px;
+}
